@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{71D0B1FC-300E-42B3-BFE2-718A5DAABDD3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SubContractingPO.SubContractingPO.clsModule</StartupObject>
+    <RootNamespace>SubContractingPO</RootNamespace>
+    <AssemblyName>SubContractingPO</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SubContractingPO.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SubContractingPO.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>SubContractingPO.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\SubContractingPO.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>SubContractingPO.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\SubContractingPO.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SAPBusinessOneSDK, Version=1.0.0.1, Culture=neutral, PublicKeyToken=c7c3cb60e45d119f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\SAP\SAP Business One\SAPBusinessOneSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\clsAddon.vb" />
+    <Compile Include="Common\clsGlobalMethods.vb" />
+    <Compile Include="Common\clsMenuEvent.vb" />
+    <Compile Include="Common\clsModule.vb" />
+    <Compile Include="Common\clsRightClickEvent.vb" />
+    <Compile Include="Common\clsTable.vb" />
+    <Compile Include="Common\ModGlobalVariables.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SubContractingPO\FrmGoodsIssue.b1f.vb">
+      <DependentUpon>FrmGoodsIssue.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="SubContractingPO\FrmGoodsReceipt.b1f.vb">
+      <DependentUpon>FrmGoodsReceipt.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="SubContractingPO\FrmInventoryTransfer.b1f.vb">
+      <DependentUpon>FrmInventoryTransfer.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="SubContractingPO\FrmMultiSelect.b1f.vb">
+      <DependentUpon>FrmMultiSelect.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="SubContractingPO\FrmSAP_BOM.b1f.vb">
+      <DependentUpon>FrmSAP_BOM.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="SubContractingPO\FrmViewTranData.b1f.vb">
+      <DependentUpon>FrmViewTranData.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="SubContractingPO\GeneralSettings.b1f.vb">
+      <DependentUpon>GeneralSettings.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="SubContractingPO\ProductionOrder.b1f.vb">
+      <DependentUpon>ProductionOrder.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="SubContractingPO\SubContractBOM.b1f.vb">
+      <DependentUpon>SubContractBOM.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="SubContractingPO\SubContractingPO.b1f.vb">
+      <DependentUpon>SubContractingPO.b1f</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SubContractingPO\FrmGoodsIssue.b1f">
+      <FormCategory>SystemForm</FormCategory>
+    </None>
+    <None Include="SubContractingPO\FrmGoodsIssue.b1f__orig_srf">
+      <DependentUpon>FrmGoodsIssue.b1f</DependentUpon>
+    </None>
+    <None Include="SubContractingPO\FrmGoodsReceipt.b1f">
+      <FormCategory>SystemForm</FormCategory>
+    </None>
+    <None Include="SubContractingPO\FrmGoodsReceipt.b1f__orig_srf">
+      <DependentUpon>FrmGoodsReceipt.b1f</DependentUpon>
+    </None>
+    <None Include="SubContractingPO\FrmInventoryTransfer.b1f">
+      <FormCategory>SystemForm</FormCategory>
+    </None>
+    <None Include="SubContractingPO\FrmInventoryTransfer.b1f__orig_srf">
+      <DependentUpon>FrmInventoryTransfer.b1f</DependentUpon>
+    </None>
+    <None Include="SubContractingPO\FrmMultiSelect.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="SubContractingPO\FrmSAP_BOM.b1f">
+      <FormCategory>SystemForm</FormCategory>
+    </None>
+    <None Include="SubContractingPO\FrmSAP_BOM.b1f__orig_srf">
+      <DependentUpon>FrmSAP_BOM.b1f</DependentUpon>
+    </None>
+    <None Include="SubContractingPO\FrmViewTranData.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="SubContractingPO\GeneralSettings.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="SubContractingPO\ProductionOrder.b1f">
+      <FormCategory>SystemForm</FormCategory>
+    </None>
+    <None Include="SubContractingPO\ProductionOrder.b1f__orig_srf">
+      <DependentUpon>ProductionOrder.b1f</DependentUpon>
+    </None>
+    <None Include="SubContractingPO\SubContractBOM.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="SubContractingPO\SubContractingPO.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SubContractingPO\PlanQty.sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
